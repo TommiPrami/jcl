@@ -4865,7 +4865,7 @@ begin
   if Assigned(BDSVersion) then
     Result := LoadResString(BDSVersion.Name)
   else
-    Result := LoadResString(@RsBDSName);
+    Result := LoadResString(@RsRSName);
 end;
 
 function TJclBDSInstallation.RadToolName: string;
